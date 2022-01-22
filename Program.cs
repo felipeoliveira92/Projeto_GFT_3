@@ -7,9 +7,7 @@ namespace ProjectGFT3
     {
         static void Main(string[] args)
         {
-            Arus arus = new Arus();
 
-            arus.
         }
     }
 }
