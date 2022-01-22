@@ -13,6 +13,11 @@ namespace ProjectGFT3.src.Entities
         {
             return this.Name + "Lançou sua magia!";
         }
+
+        public string Attack(int bonus)
+        {
+            return this.Name + "Lançou sua magia com Bonus";
+        }
         
     }
 }
