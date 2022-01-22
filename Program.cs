@@ -1,4 +1,5 @@
 ﻿using System;
+using ProjectGFT3.src.Entities;
 
 namespace ProjectGFT3
 {
@@ -6,7 +7,9 @@ namespace ProjectGFT3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Arus arus = new Arus();
+
+            arus.
         }
     }
 }
