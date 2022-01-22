@@ -16,7 +16,15 @@ namespace ProjectGFT3.src.Entities
 
         public string Attack(int bonus)
         {
-            return this.Name + "Lançou sua magia com Bonus";
+            if(bonus > 5)
+            {                
+                return this.Name + "Lançou sua magia com Bonus" + bonus;
+
+            }
+            else
+            {                
+                return this.Name + "Lançou sua magia com Bonus";
+            }
         }
         
     }

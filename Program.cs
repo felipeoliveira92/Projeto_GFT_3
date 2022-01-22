@@ -7,6 +7,10 @@ namespace ProjectGFT3
     {
         static void Main(string[] args)
         {
+            Knight knighit = new Knight("Arus", 23, "Knight");
+            Wizard wizard = new Wizard("Jenica", 1, "Wizard");
+
+            Console.WriteLine();
 
         }
     }
